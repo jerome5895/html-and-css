@@ -4,7 +4,7 @@ body {
   background-color: #1f2039;
 }
 
-a:hover {
+a {
   color: #242424;
   text-decoration: none;
   
@@ -45,4 +45,20 @@ li {
 .carre-contenu {
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.cta:hover {
+  text-decoration: none;
+  background: linear-gradient(#696484, #8788BA);
+}
+
+
+.lien-icone:hover {
+  opacity: 0.5;
 }
